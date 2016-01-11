@@ -7,7 +7,7 @@
 ###head_main@qq.com
 
     
-##圆角进度条
+##[圆角进度条](rounedprogressbar)
 在Android中要实现圆角的进度条就必需要去自己去定义了，就算你将`ProgressBar`的进度图片设置成圆角的也是不行的，由于Android内部
 实现的是用`ClipDrawable`的不是用拉伸的所以图片的圆角也会被剪掉。
    
@@ -28,7 +28,7 @@
 ![roundedbar](rounedprogressbar/preview.png)
    
 
-##圆形背景布局
+##[圆形背景布局](circlelayout)
 实现一个半圆的进度条，基本的需求是画一个半圆的进度条上面有一个标题，中间有一段小文字，我的实现的方法是新建的`CircleLayout`继承`FrameLayout`,
 设置`setWillNotDraw`方法为`FALSE`然后实现`onDraw`方法画出圆，文字什么的就在布局中解决就好了。
 
