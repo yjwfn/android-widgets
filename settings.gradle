@@ -1,1 +1,1 @@
-include ':app', ':rounedprogressbar'
+include ':app', ':rounedprogressbar', ':circlelayout'

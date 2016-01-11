@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleLayout">
+        <attr name="progress" format="float"></attr>
+        <attr name="startSweepAngle" format="integer"></attr>
+        <attr name="endSweepAngle" format="integer"></attr>
+        <attr name="strokeWidth" format="dimension|reference"></attr>
+        <attr name="startColor" format="reference|color"></attr>
+        <attr name="endColor" format="reference|color"></attr>
+        <attr name="pointColor" format="reference|color"></attr>
+        <attr name="circleBackground" format="reference|color"></attr>
+    </declare-styleable>
+</resources>

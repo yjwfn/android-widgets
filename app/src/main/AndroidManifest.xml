@@ -11,6 +11,9 @@
         <activity android:name=".RoundedProgressActivity"
             ></activity>
 
+        <activity android:name=".CircleLayoutActivity"
+            ></activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"></action>

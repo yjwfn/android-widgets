@@ -10,4 +10,10 @@
         android:onClick="progressBar"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="圆形进度条"
+        android:onClick="circleLayout"
+        />
 </LinearLayout>

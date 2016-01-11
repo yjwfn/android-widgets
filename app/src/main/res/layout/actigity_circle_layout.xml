@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.lw.widget.circlelayout.CircleLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circle_layout"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:startColor="#FFFF0000"
+        app:endColor="#FF00FF00"
+        app:strokeWidth="10dp"
+        app:startSweepAngle="45"
+        app:endSweepAngle="315"
+        app:pointColor="#FFFFFFFF"
+        app:progress="0.5"
+        app:circleBackground="#FF000000"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_circle_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FF000000"
+            />
+
+        <TextView
+            android:id="@+id/tv_circle_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hello"
+            android:textColor="#FF000000"
+            />
+    </com.lw.widget.circlelayout.CircleLayout>
+
+</LinearLayout>

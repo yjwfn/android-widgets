@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.lw.widget.circlelayout.CircleLayout;
+
 /**
  * Created by yjwfn on 16-1-11.
  */
@@ -22,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(RoundedProgressActivity.class);
     }
 
+    public void circleLayout(View view){
+        startActivity(CircleLayoutActivity.class);
+    }
 
     private void startActivity(Class clz){
         Intent intent = new Intent(this, clz);
